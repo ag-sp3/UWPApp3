@@ -9,5 +9,20 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <RelativePanel>
+            <TextBox x:Name="tbx_SupplierFile" Header="Supplier File: " 
+                     RelativePanel.AlignLeftWithPanel="True" HorizontalAlignment="Stretch" 
+                     RelativePanel.LeftOf="btn_Parse"
+                     VerticalAlignment="Bottom"
+                     Margin="10,10,0,10"/>
+            <Button x:Name="btn_Parse" RelativePanel.AlignRightWithPanel="True"
+                    RelativePanel.AlignBottomWithPanel="True" Margin="10">Parse</Button>
+        </RelativePanel>
+
     </Grid>
 </Page>
