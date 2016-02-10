@@ -21,7 +21,7 @@
                      VerticalAlignment="Bottom"
                      Margin="10,10,0,10"/>
             <Button x:Name="btn_Parse" RelativePanel.AlignRightWithPanel="True"
-                    RelativePanel.AlignBottomWithPanel="True" Margin="10">Parse</Button>
+                    RelativePanel.AlignBottomWithPanel="True" Margin="10">Parse!</Button>
         </RelativePanel>
 
     </Grid>
